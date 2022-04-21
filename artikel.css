@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    background-color: #fadddd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.329);
+    padding: 15px 20px;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-auto-rows: auto;
+    margin-bottom: 40px;
+}
+
+nav ul li {
+    margin-top: 20px;
+    display: inline-block;  
+    margin-right: 40px;
+}
+
+nav form {
+    margin-top: 25px;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+div p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    text-align: center;
+}
+
+table thead th {
+    color: white;
+    background-color: #FF9292;
+    padding: 10px;
+    text-align: center;
+}
+
+table tr td { 
+    background-color: azure;
+    padding: 15px; 
+}
+
+table tr:nth-child(even) td { 
+    background-color: rgb(255, 255, 255);
+}
+
+table tr td a { 
+    text-decoration: none;
+    background-color: rgb(255, 53, 53);
+    color: white;
+    padding: 7px 20px; 
+}
+
+.add-produk {
+    position: relative;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 50px auto;
+    width: 70%;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.329);
+}
+
+.add-produk label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.add-produk input {
+    border: 1px #FF9292 solid;
+    border-radius: 5px;
+    width: 200px;
+    margin-bottom: 10px;
+    padding: 10px; 
+}
+
+.add-produk button {
+    border-radius: 8px;
+    border: none;
+    background-color: #f87171;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    display: block;
+    padding: 10px;
+    width: 100px;
+}
